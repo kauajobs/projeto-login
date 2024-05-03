@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('src/imagem-login/lake-mountains-rocks-twilight-sunset-starry-sky-purple-sky-3840x2160-3768.jpg');
+    background-repeat: no-repeat; /* Adicionado para evitar a repetição da imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+}
+
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow:0 0 10px rgba(0, 0, 0, .2) ;
+    color: #fff;
+    border-radius:  10px;
+    padding:  30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    /* Adicionado */
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    /* Corrigido */
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    padding-right: 40px;
+    /* Ajuste de padding para acomodar o ícone */
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box ::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 10px;
+    /* Ajuste de posição do ícone */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: white;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 15px 0 15px;
+
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+.wrapper .registes-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registes-link p a {
+    color: #fff;
+    text-decoration:none;
+    font-weight: 600;
+}
+
+.registes-link p a:hover{
+    text-decoration: underline ;
+}
